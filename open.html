@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-size: 8em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      .pulse {
+        animation: pulse 1s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0.5;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+<body>
+  <div id="closing">Closing page in...</div>
+  <div id="countdown"></div>
+  <script src="open.js"></script>
+  <script src="countdown.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+      body {
+        background-color: black;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 8em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #closing {
+        font-size: 0.4em;
+        margin-bottom: 0.1em;
+        opacity: 0.8;
+      }
+
+      .countdown-number {
+        font-weight: bold;
+        transform: scale(1);
+        transition: transform 0.2s;
+      }
+
+      .pulse {
+        transform: scale(1.15);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="closing">Closing page in...</div>
+    <div id="countdown"></div>
+    <script src="open.js"></script>
+    <script src="countdown.js"></script>
+  </body>
+
+</html>

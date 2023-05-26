@@ -19,32 +19,39 @@
   "author": "itsbrex",
   "homepage_url": "https://github.com/itsbrex/clonekit-open-in-vscode",
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://github.com/*/*",
-        "https://gitlab.com/*/*",
-        "https://bitbucket.org/*/*",
-        "https://dev.azure.com/*/*"
-      ],
-      "js": [
-        "content.js"
-      ]
+      "matches": ["https://github.com/*/*", "https://gitlab.com/*/*", "https://bitbucket.org/*/*", "https://dev.azure.com/*/*"],
+      "js": ["content.js"]
     }
   ],
-  "host_permissions": [
-    "https://github.com/",
-    "https://gitlab.com/",
-    "https://bitbucket.org/",
-    "https://dev.azure.com/"
-  ],
-  "permissions": [
-    "declarativeContent",
-    "storage",
-    "declarativeNetRequest",
-    "tabs"
+  "host_permissions": ["https://github.com/", "https://gitlab.com/", "https://bitbucket.org/", "https://dev.azure.com/"],
+  "permissions": ["declarativeContent", "storage", "declarativeNetRequest", "tabs", "<all_urls>"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        {
+          "file": "open.html",
+          "matches": ["https://*/*"]
+        },
+        {
+          "file": "open.js",
+          "matches": ["https://*/*"]
+        }
+      ],
+      "extension_urls": [
+        {
+          "url": "open.html"
+        },
+        {
+          "url": "open.js"
+        }
+      ]
+    }
   ]
 }
