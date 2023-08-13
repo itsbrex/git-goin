@@ -31,27 +31,11 @@
     }
   ],
   "host_permissions": ["https://github.com/", "https://gitlab.com/", "https://bitbucket.org/", "https://dev.azure.com/"],
-  "permissions": ["declarativeContent", "storage", "declarativeNetRequest", "tabs", "<all_urls>"],
+  "permissions": ["declarativeContent", "storage", "declarativeNetRequest", "tabs"],
   "web_accessible_resources": [
     {
-      "resources": [
-        {
-          "file": "open.html",
-          "matches": ["https://*/*"]
-        },
-        {
-          "file": "open.js",
-          "matches": ["https://*/*"]
-        }
-      ],
-      "extension_urls": [
-        {
-          "url": "open.html"
-        },
-        {
-          "url": "open.js"
-        }
-      ]
+      "resources": ["open.html", "open.js"],
+      "matches": ["https://*/*"]
     }
   ]
 }
