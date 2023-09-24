@@ -1,26 +1,26 @@
 # Git-Goin' - One-Click Clone + Open Repo in Desktop Editor
 
-<div style="text-align: center">
+<p align="center">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/cursor-light.svg" alt="cursor-light">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/cursor.svg" alt="cursor">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/vscode.svg" alt="vscode">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/vscode-insiders.svg" alt="vscode-insiders">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/vscodium.svg" alt="vscodium">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/vscodium-insiders.svg" alt="vscodium-insiders">
-</div>
+</p>
 
 Currently supports [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [VS Code - Insiders](https://code.visualstudio.com/insiders/), [VSCodium](https://vscodium.com/) and [VSCodium - Insiders](https://github.com/VSCodium/vscodium-insiders).
 
 ![git-goin-clone-repo-extension](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20%2B%20Open%20Any%20Repo%20in%20Desktop%20Editor%20%E2%9C%A8&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fitsbrex%2Fgit-goin-clone-repo-extension%2Fmain%2Ficons%2Feditors-focus-cursor.svg&name=1&owner=1&pattern=Solid&theme=Auto)
 
-<div style="text-align: center">
+<p align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)](https://github.com/itsbrex/git-goin-clone-repo-extension/stargazers) [![GitHub forks](https://img.shields.io/github/forks/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)](https://github.com/itsbrex/git-goin-clone-repo-extension/network/members) [![GitHub issues](https://img.shields.io/github/issues/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)](https://github.com/itsbrex/git-goin-clone-repo-extension/issues) [![GitHub license](https://img.shields.io/github/license/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)](https://github.com/itsbrex/git-goin-clone-repo-extension/blob/main/LICENSE)
 
 ## BRIAN ROACH
 
-</div>
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+</p>
+<p align="center">
 
   <a href="https://linkedin.com/in/itsbrex" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="margin-bottom: 5px; border-radius: 6px">
@@ -31,7 +31,7 @@ Currently supports [Cursor](https://cursor.sh), [VS Code](https://code.visualstu
 
   <img src="https://img.shields.io/github/followers/itsbrex?style=social" alt="GitHub followers" style="width: auto; height: 28px;">
 
-</div>
+</p>
 
 <br>
 
