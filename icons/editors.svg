@@ -26,10 +26,10 @@
 <defs>
 <linearGradient id="paint0_linear_202_39" x1="41.748" y1="1.044" x2="41.748" y2="38.884" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#BDBDBD"/>
 </linearGradient>
 <linearGradient id="paint1_linear_202_39" x1="56.48" y1="1.044" x2="56.48" y2="62.416" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.4"/>
+<stop stop-color="#E0E0E0"/>
 <stop offset="1" stop-color="white"/>
 </linearGradient>
 <linearGradient id="paint2_linear_202_39" x1="347.998" y1="0.833281" x2="409.865" y2="60.5267" gradientUnits="userSpaceOnUse">
