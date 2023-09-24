@@ -2,7 +2,9 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)]() [![GitHub forks](https://img.shields.io/github/forks/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)]() [![GitHub issues](https://img.shields.io/github/issues/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)]() [![GitHub license](https://img.shields.io/github/license/itsbrex/git-goin-clone-repo-extension?style=for-the-badge)]()
 
-This Chrome Extension allows you to quickly and easily clone repositories and open them in your desktop editor of choice. Currently supports [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [VS Code - Insiders](https://code.visualstudio.com/insiders/), [VSCodium](https://vscodium.com/) and [VSCodium - Insiders](https://github.com/VSCodium/vscodium-insiders).
+Quickly and easily clone repositories and open them in your desktop editor of choice.
+
+Currently supports [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [VS Code - Insiders](https://code.visualstudio.com/insiders/), [VSCodium](https://vscodium.com/) and [VSCodium - Insiders](https://github.com/VSCodium/vscodium-insiders).
 
 ![GitGoin'](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20repositories%20and%20open%20them%20in%20VS%20Code&font=Source%20Code%20Pro&logo=https%3A%2F%2Fgithub.com%2Fitsbrex%2Fgit-goin-clone-repo-extension%2Fblob%2Fmain%2Ficons%2Ficon256x256.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Solid&theme=Dark)
 
@@ -28,8 +30,7 @@ This Chrome Extension allows you to quickly and easily clone repositories and op
 
 ## Features
 
-- 📋️ Clone individual or all repositories with a single click!
-- 📁 Open cloned repositories in VS Code.
+- One-click clone and open repos from GitHub, GitLab, Bitbucket, and Azure Dev in Cursor, VS Code, VS Code - Insiders, VSCodium, or VSCodium - Insiders
 
 ## Demo
 
@@ -37,14 +38,14 @@ This Chrome Extension allows you to quickly and easily clone repositories and op
 
 ## Contributing
 
-If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/issues) or a [pull request](https://github.com/git-goin-clone-repo-extension/pulls).
+If you find any bugs or want to suggest or add new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/git-goin-clone-repo-extension/issues) or a [pull request](https://github.com/itsbrex/git-goin-clone-repo-extension/pulls).
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/itsbrex?color=ee8449&style=flat-square)](#contributing)
+[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/git-goin-clone-repo-extension?color=ee8449&style=flat-square)](#contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
