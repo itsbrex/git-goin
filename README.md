@@ -4,9 +4,10 @@
 
 Quickly and easily clone repositories and open them in your desktop editor of choice.
 
+
 Currently supports [Cursor](https://cursor.sh), [VS Code](https://code.visualstudio.com/), [VS Code - Insiders](https://code.visualstudio.com/insiders/), [VSCodium](https://vscodium.com/) and [VSCodium - Insiders](https://github.com/VSCodium/vscodium-insiders).
 
-![GitGoin'](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20repositories%20and%20open%20them%20in%20VS%20Code&font=Source%20Code%20Pro&logo=https%3A%2F%2Fgithub.com%2Fitsbrex%2Fgit-goin-clone-repo-extension%2Fblob%2Fmain%2Ficons%2Ficon256x256.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Solid&theme=Dark)
+![GitGoin'](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20%2B%20Open%20Any%20Repo%20in%20Desktop%20Editor%20%E2%9C%A8&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fitsbrex%2Fgit-goin-clone-repo-extension%2Fmain%2Ficons%2Feditors.svg&name=1&owner=1&pattern=Solid&theme=Auto)
 
 <div style="text-align: center">
 
