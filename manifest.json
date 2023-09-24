@@ -1,40 +1,56 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "[DEV] CloneKit-Open in VS Code",
-  "description": "One-click clone & open any GitHub, GitLab or Bitbucket repository in Visual Studio Code",
+  "name": "GitGoin - Clone Repo in Cursor + VS Code",
+  "description": "One-click clone & open any GitHub, GitLab, Bitbucket, or Azure DevOps repo in your desktop editor Cursor or Visual Studio Code",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
-    "16": "icons/16.png",
-    "48": "icons/48.png",
-    "32": "icons/32.png",
+    "16" : "icons/16.png" ,
+    "32" : "icons/32.png" ,
+    "48" : "icons/48.png" ,
     "128": "icons/128.png",
     "512": "icons/512.png"
   },
   "action": {},
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": false
-  },
+  "options_ui": {"page": "options.html", "open_in_tab": true},
   "author": "itsbrex",
-  "homepage_url": "https://github.com/itsbrex/clonekit-open-in-vscode",
-  "background": {
-    "service_worker": "background.js"
-  },
+  "homepage_url": "https://github.com/itsbrex/git-goin-clone-repo-extension",
+  "background": {"service_worker": "background.js"},
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*/*", "https://gitlab.com/*/*", "https://bitbucket.org/*/*", "https://dev.azure.com/*/*"],
+      "matches": [
+        "https://github.com/*/*"   ,
+        "https://gitlab.com/*/*"   ,
+        "https://bitbucket.org/*/*",
+        "https://dev.azure.com/*/*"
+      ],
       "js": ["content.js"]
     }
   ],
-  "host_permissions": ["https://github.com/", "https://gitlab.com/", "https://bitbucket.org/", "https://dev.azure.com/"],
-  "permissions": ["declarativeContent", "storage", "declarativeNetRequest", "tabs"],
+  "host_permissions": [
+    "https://github.com/"   ,
+    "https://gitlab.com/"   ,
+    "https://bitbucket.org/",
+    "https://dev.azure.com/"
+  ],
+  "permissions": [
+    "declarativeContent"   , "storage"              , "declarativeNetRequest",
+    "tabs"
+  ],
   "web_accessible_resources": [
     {
-      "resources": ["open.html", "open.js"],
+      "resources": [
+        "open.html"                  ,
+        "open.js"                    ,
+        "icons/cursor.svg"           ,
+        "icons/vscode.svg"           ,
+        "icons/vscode-insiders.svg"  ,
+        "icons/vscodium.svg"         ,
+        "icons/vscodium-insiders.svg"
+      ],
       "matches": ["https://*/*"]
     }
   ]

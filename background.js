@@ -1,3 +1,9 @@
+chrome.runtime.onInstalled.addListener((details) => {
+  if (details.reason === 'install') {
+    chrome.tabs.create({ url: 'onboarding.html' });
+  }
+});
+
 function ext() {
   chrome.action.disable();
 
@@ -13,6 +19,9 @@ function ext() {
         new chrome.declarativeContent.PageStateMatcher({
           pageUrl: { hostEquals: 'bitbucket.org' },
         }),
+        new chrome.declarativeContent.PageStateMatcher({
+          pageUrl: { hostEquals: "dev.azure.com" },
+        }),
       ],
       actions: [new chrome.declarativeContent.ShowAction()],
     };
@@ -26,9 +35,6 @@ chrome.runtime.onStartup.addListener(() => {
   ext();
 });
 
-chrome.runtime.onInstalled.addListener(() => {
-  ext();
-});
 
 
 
@@ -65,7 +71,7 @@ chrome.action.onClicked.addListener((tab) => {
             vscodeUrl = openApp + '://vscode.git/clone?url=git@' + url.hostname + ':' + path[1] + '/' + path[2] + '.git';
             console.log('VS Code URL:', vscodeUrl);
           }
-          // Pass the VS Code URL to the open.html page via a query parameter
+          // Workaround to be able to launch custom app URIs like cursor://, vscode://, vscode-insiders:// etc.
           const newTabUrl = chrome.runtime.getURL('open.html') + `?url=${encodeURIComponent(vscodeUrl)}`;
           chrome.tabs.create({ url: newTabUrl });
         }

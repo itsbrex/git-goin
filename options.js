@@ -11,7 +11,7 @@ function save_options() {
 
   chrome.storage.sync.set(options, function () {
     var status = document.getElementById('status');
-    status.textContent = 'Options saved.';
+    status.textContent = 'OPTIONS SAVED.';
 
     // Fetch and log the saved options to confirm they were saved
     chrome.storage.sync.get(['protocol', 'application'], function (items) {
