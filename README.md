@@ -15,7 +15,7 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/editors.svg" alt="cursor-light">
+<img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/editors.svg" alt="editor-icons">
 
 </p>
 
@@ -46,8 +46,8 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 
 ## Todo
 
-- [x] Add support for VS Code, VS Code - Insiders, VSCodium, and VSCodium - Insiders
-- [x] Clone and open repositories from GitHub, GitLab, Bitbucket, and Azure Dev
+- [x] Support for VS Code, VS Code - Insiders, VSCodium, and VSCodium - Insiders
+- [x] Support GitHub, GitLab, Bitbucket, and Azure Dev
 - [x] Add support for [Cursor](https://cursor.sh) (my personal favorite, so now default. Sorry, not sorry. 😅)
 - [x] Allow users to set their preferred protocol (HTTPS or SSH)
 - [x] Allow users to set their preferred editor (Cursor, VS Code, VS Code - Insiders, VSCodium, or VSCodium - Insiders)
