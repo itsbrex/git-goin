@@ -1,246 +1,257 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-/* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
-  display: none;
-}
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      body::-webkit-scrollbar {
+        display: none;
+      }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 2em;
-}
+      /* Hide scrollbar for IE, Edge and Firefox */
+      body {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+        font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 0.1em;
+      }
 
-@media(max-width: 600px) {
-  body {
-    font-size: 1.5em;
-  }
-}
+      @media (max-width: 100vw) {
+        .main {
+          overflow: auto;
+        }
+      }
 
-.option-container {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: 0 auto;
-}
+      @media(max-width: 600px) {
+        body {
+          font-size: 1.5em;
+        }
+      }
 
-div {
-  margin-top: 1em;
-  text-align: center;
-}
+      .option-container {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0 auto;
+      }
 
-p {
-  margin-top: 0.5em;
-  font-size: 24px;
-  line-height: 1.5;
-}
+      div {
+        margin-top: 1em;
+        text-align: center;
+      }
 
-select,
-button {
-  font-family: 'Share Tech Mono', monospace;
-  padding: 4px;
-  border: none;
-  border-radius: 8px;
-  background: hsl(var(--r-frontground-2), 0.025);
-  color: white;
-  cursor: pointer;
-  font-size: 1em;
-  background-image: linear-gradient(to right, #65ceb9, #666666, #808080, #ffffff);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradient 15s ease infinite;
-  outline: 2px solid;
-  outline-offset: 2px;
-}
+      p {
+        margin-top: 0.5em;
+        font-size: 24px;
+        line-height: 1.5;
+      }
 
-select {
-  margin-top: 15px;
-}
+      select,
+      button {
+        font-family: 'Share Tech Mono', monospace;
+        padding: 4px;
+        border: none;
+        border-radius: 8px;
+        background: hsl(var(--r-frontground-2), 0.025);
+        color: white;
+        cursor: pointer;
+        font-size: 1em;
+        background-image: linear-gradient(to right, #65ceb9, #666666, #808080, #ffffff);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient 10s ease infinite;
+        outline: 2px solid;
+        outline-offset: 2px;
+      }
 
-select option:hover {
-  background: #333;
-}
+      select {
+        margin-top: 15px;
+      }
 
-select:hover,
-button:hover {
-  background-image: linear-gradient(to right, #ffffff, #808080, #65ceb9);
-}
+      select option:hover {
+        background: #333;
+      }
 
-button {
-  margin-top: 2em;
-}
+      select:hover,
+      button:hover {
+        background-image: linear-gradient(to right, #ffffff, #808080, #65ceb9);
+      }
 
-#save {
-  padding: 0.2em;
-  margin: 1.4em;
-  border-radius: 0.2em;
-  font-size: 0.9em;
-}
+      button {
+        margin-top: 2em;
+      }
 
-#save:hover {
-  color: white;
-  background-color: transparent;
-}
+      #save {
+        padding: 0.2em;
+        margin: 1.4em;
+        border-radius: 0.2em;
+        font-size: 0.9em;
+      }
 
-footer {
-  flex-shrink: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 0.5em;
-}
+      #save:hover {
+        color: white;
+        background-color: transparent;
+      }
 
-footer a {
-  color: white;
-  text-decoration: none;
-}
+      footer {
+        flex-shrink: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 0.5em;
+      }
 
-footer img {
-  height: 36px;
-  width: 36px;
-}
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
 
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1 0 auto;
-}
+      footer img {
+        height: 36px;
+        width: 36px;
+      }
 
-.box {
-  max-width: 1200px;
-  width: 90%;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 auto;
+      }
 
-.flex {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
+      .box {
+        max-width: 1200px;
+        width: 90%;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  margin: 0;
-  text-align: center;
-}
+      .flex {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
 
-h2 {
-  font-size: 34px;
-  font-weight: 700;
-  margin: 5;
-  text-align: center;
-}
+      h1 {
+        font-size: 56px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+      }
 
-.mark {
-  background-color: #f4f4f4;
-  color: #333;
-}
+      h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 5;
+        text-align: center;
+      }
 
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 24px;
-  line-height: 20px;
-  color: #ccc;
-  vertical-align: middle;
-  outline: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 6px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
+      .mark {
+        background-color: #f4f4f4;
+        color: #333;
+      }
 
-.left-align {
-  text-align: left;
-}
-ol {
-  list-style-type: decimal;
-  margin: 0;
-  padding: 0;
-}
+      kbd {
+        display: inline-block;
+        padding: 3px 5px;
+        font-size: 22px;
+        line-height: 20px;
+        color: #ccc;
+        vertical-align: middle;
+        outline: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 6px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+      }
 
-ol li {
-  margin-bottom: 10px;
-  font-size: 28px;
-  line-height: 1.5;
-}
+      .left-align {
+        text-align: left;
+      }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
+      ol {
+        list-style-type: decimal;
+        margin: 0;
+        padding: 0;
+      }
 
-  50% {
-    background-position: 100% 50%;
-  }
+      ol li {
+        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 1.5;
+      }
 
-  100% {
-    background-position: 0% 50%;
-  }
-}
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
 
-ol a,
-ol kbd {
-  background-image: linear-gradient(to right, rgb(57, 245, 207), #666666, #808080, #ffffff);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradient 15s ease infinite;
-}
+        50% {
+          background-position: 100% 50%;
+        }
 
-ol a:hover,
-ol kbd:hover {
-  background-image: linear-gradient(to right, #ffffff, #808080, #65ceb9);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradient 15s ease infinite;
-}
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 
-@media (prefers-color-scheme: light) {
-  body,
-  .box {
-    background-color: #fff;
-    color: #191919;
-  }
-}
+      ol a,
+      ol kbd {
+        background-image: linear-gradient(to right, rgb(57, 245, 207), #666666, #808080, #ffffff);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient 10s ease infinite;
+      }
 
-@media (prefers-color-scheme: dark) {
-  body,
-  .box {
-    background: linear-gradient(rgb(10, 16, 20), rgb(14, 16, 20));
-    color: #fff;
-  }
-}
+      ol a:hover,
+      ol kbd:hover {
+        background-image: linear-gradient(to right, #ffffff, #808080, #65ceb9);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient 10s ease infinite;
+      }
 
-.gradient-text {
-  background-image: linear-gradient(to right, #65ceb9, #666666, #808080, #ffffff);
-  background-repeat: no-repeat;
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradient 15s ease infinite;
-}
+      @media (prefers-color-scheme: light) {
+
+        body,
+        .box {
+          background-color: #fff;
+          color: #191919;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+
+        body,
+        .box {
+          background: linear-gradient(rgb(10, 16, 20), rgb(14, 16, 20));
+          color: #fff;
+        }
+      }
+
+      .gradient-text {
+        background-image: linear-gradient(to right, #65ceb9, #666666, #808080, #ffffff);
+        background-repeat: no-repeat;
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient 10s ease infinite;
+      }
