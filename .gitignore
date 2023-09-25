@@ -1,9 +1,7 @@
 .DS_Store
 node_modules
 .history
-clone-kit-icons.iconsproj
-notes
-repo_index.md
 .env
-
 .vscode
+# all zip files
+*.zip
