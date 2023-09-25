@@ -14,9 +14,9 @@
 Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code.visualstudio.com/">VS Code</a>, <a href="https://code.visualstudio.com/insiders/">VS Code - Insiders</a>, <a href="https://vscodium.com/">VSCodium</a> and <a href="https://github.com/VSCodium/vscodium-insiders">VSCodium - Insiders</a>.
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/editors.svg" alt="editor-icons">
-</p>
+</p> -->
 
 <p align="center">
   <img src="../images/open-in-buttons.png" alt="Hover text" title="Hover text">
