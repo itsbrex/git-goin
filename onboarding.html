@@ -4,211 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="onboardingstyle.css"> -->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
-      /* Hide scrollbar for Chrome, Safari and Opera */
-      body::-webkit-scrollbar {
-        display: none;
-      }
-
-      /* Hide scrollbar for IE, Edge and Firefox */
-      body {
-        -ms-overflow-style: none;
-        /* IE and Edge */
-        scrollbar-width: none;
-        /* Firefox */
-      }
-
-      body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        font-family: 'Share Tech Mono', monospace, Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      footer {
-        /* position: fixed;
-  left: 0;
-  bottom: 0; */
-        flex-shrink: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 0.5em;
-      }
-
-      footer a {
-        color: white;
-        text-decoration: none;
-      }
-
-      footer img {
-        height: 36px;
-        width: 36px;
-      }
-
-      .main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* min-height: 100vh; */
-        flex: 1 0 auto;
-      }
-
-      .box {
-        max-width: 1200px;
-        width: 90%;
-        padding: 20px;
-        box-sizing: border-box;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .flex {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-      }
-
-      img {
-        height: 144px;
-        width: 144px;
-        margin-right: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-      }
-
-      h1 {
-        font-size: 56px;
-        font-weight: 700;
-        margin: 0;
-        text-align: center;
-      }
-
-      h2 {
-        font-size: 34px;
-        font-weight: 700;
-        margin: 5;
-        text-align: center;
-      }
-
-      .main {
-        flex: 1;
-      }
-
-      mark {
-        background-color: #f4f4f4;
-        color: #333;
-      }
-
-      kbd {
-        display: inline-block;
-        padding: 3px 5px;
-        font-size: 24px;
-        line-height: 20px;
-        color: #ccc;
-        vertical-align: middle;
-        outline: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 6px;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        color: transparent;
-      }
-
-      ol {
-        list-style-type: decimal;
-        margin: 0;
-        padding: 0;
-      }
-
-      p {
-        font-size: 24px;
-        line-height: 1.5;
-      }
-
-      ol li {
-        margin-bottom: 10px;
-        font-size: 28px;
-        line-height: 1.5;
-      }
-
-      @keyframes gradient {
-        0% {
-          background-position: 0% 50%;
-        }
-
-        50% {
-          background-position: 100% 50%;
-        }
-
-        100% {
-          background-position: 0% 50%;
-        }
-      }
-
-      ol a,
-      ol kbd {
-        background-image: linear-gradient(to right, rgb(57, 245, 207), #666666, #808080, #ffffff);
-        background-size: 400% 400%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradient 15s ease infinite;
-      }
-
-      ol a:hover,
-      ol kbd:hover {
-        background-image: linear-gradient(to right, #ffffff, #808080, #65ceb9);
-        background-size: 400% 400%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradient 15s ease infinite;
-      }
-
-      @media (prefers-color-scheme: light) {
-
-        body,
-        box {
-          background-color: #fff;
-          color: #191919;
-        }
-      }
-
-      @media (prefers-color-scheme: dark) {
-
-        body,
-        box {
-          background: linear-gradient(rgb(10, 16, 20), rgb(14, 16, 20));
-          color: #fff;
-        }
-      }
-
-      .gradient-text {
-        background-image: linear-gradient(to right, #65ceb9, #666666, #808080, #ffffff);
-        background-repeat: no-repeat;
-        background-size: 400% 400%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradient 15s ease infinite;
-      }
-    </style>
+    <link rel="stylesheet" href="onboardingstyle.css">
   </head>
 
   <body style="display: flex; flex-direction: column; min-height: 100vh;">
     <main class="main" style="flex: 1;">
       <div class="box">
         <div class="flex">
-          <img src="./icons/256.png" alt="GitGoin' logo" style="height: 72px; width: 72px;">
+          <img src="./icons/256.png" alt="GitGoin' logo" style="height: 72px; width: 72px; margin: auto;">
         </div>
         <h1>Welcome to <span class="gradient-text">GitGoin'!</span></h1>
         <h2>One-Click Clone any Repo in Desktop Editor</h2>
@@ -217,8 +20,8 @@
             class="gradient-text">VS Code - Insiders</span> • <span class="gradient-text">VSCodium</span> • <span
             class="gradient-text">VSCodium - Insiders</span>
         </p>
-        <p>About the extension:</p>
-        <ol>
+        <br>
+        <ol class="left-align">
           <li>GitGoin' only works on the <kbd>github.com</kbd>, <kbd>gitlab.com</kbd>, <kbd>bitbucket.org</kbd>, and
             <kbd>dev.azure.com</kbd> domains.</li>
           <li>GitGoin' does not track, store, or transmit <u>any</u> user data. 100% private.</li>
@@ -240,17 +43,17 @@
       </div>
     </main>
     <footer>
-      <a href="https://github.com/itsbrex/git-goin-clone-repo-extension" aria-label="itsbrex github profile"
-        class="footer-octicon" title="source code">
-        <svg aria-hidden="true" class="octicon octicon-mark-github" height="36" version="1.1" viewbox="0 0 16 16"
-          width="36" style="fill: #fff; stroke: #000;">
+      <a href="https://github.com/itsbrex/git-goin-clone-repo-extension" aria-label="chrome extension source code link"
+        class="footer-octicon" title="chrome extension source code link">
+        <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewbox="0 0 16 16"
+          width="32" style="fill: #fff; stroke: #000;">
           <path fill-rule="evenodd"
             d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z">
           </path>
         </svg>
       </a>
-      <p>made by <a href="https://links.dev/brian" target="_blank" rel="noopener noreferrer"
-          class="gradient-text">brex</a></p>
+      <p>made by <a href="https://links.dev/brian" target="_blank" rel="noopener noreferrer" class="gradient-text"
+          title="my links" aria-label="itsbrex social links">brex</a></p>
     </footer>
   </body>
 
