@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/license/itsbrex/git-goin-clone-repo-extension?style=for-the-badge" alt="GitHub license">
 </p>
 
-![git-goin-clone-repo-extension](./../images/social-image.png "Git Goin OG-Image")
+![git-goin-clone-repo-extension](./images/social-image.png "Git Goin OG-Image")
 
 <p align="center">
 Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code.visualstudio.com/">VS Code</a>, <a href="https://code.visualstudio.com/insiders/">VS Code - Insiders</a>, <a href="https://vscodium.com/">VSCodium</a> and <a href="https://github.com/VSCodium/vscodium-insiders">VSCodium - Insiders</a>.
@@ -19,7 +19,7 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 </p> -->
 
 <p align="center">
-  <img src="../images/open-in-buttons.png" alt="Hover text" title="Hover text">
+  <img src="./images/open-in-buttons.png" alt="Hover text" title="Hover text">
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/itsbrex" target="_blank">
@@ -43,7 +43,7 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 ## Demo
 
 <p align="center">
-  <img src="../images/gitgoin-demo.gif" alt="git-goin-demo" style="border-radius: 15px;">
+  <img src="./images/gitgoin-demo.gif" alt="git-goin-demo" style="border-radius: 15px;">
 </p>
 
 ## Todo
