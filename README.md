@@ -56,6 +56,7 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 - [x] Show onboarding page on first install
 - [x] Encourage open-source contributions
 - [x] Add support for private repositories
+- [x] Release to Chrome Web Store
 - [ ] Refactor and merge separate [Orion extension](./orion-extension/) into a single codebase using something like e.g. [web-extension-starter](https://github.com/abhijithvijayan/web-extension-starter/) (Should've done this from the start, but this was an old extension I never finsihed/published and didn't know any better at the tiem. 😅)
 - [ ] Support additional code editors (Sublime Text, Atom, etc.)
 - [ ] Improve UI/UX of the options page
