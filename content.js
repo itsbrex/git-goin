@@ -98,17 +98,17 @@ function createEditorButton(application) {
 
   const buttonTitle = document.createElement("span");
   buttonTitle.textContent = `Open in ${application}`;
-  buttonTitle.style.marginLeft = '5px'; // Add some space between the icon and the text
-  editorButton.style.display = 'flex'; // Use Flexbox
-  editorButton.style.flexDirection = 'row'; // Arrange the items horizontally
-  editorButton.style.alignItems = 'center'; // Vertically align the items
+  buttonTitle.style.marginLeft = '5px';
+  editorButton.style.display = 'flex';
+  editorButton.style.flexDirection = 'row';
+  editorButton.style.alignItems = 'center';
 
   getIcon(application).then((icon) => {
     const iconContainer = document.createElement("span");
     iconContainer.innerHTML = icon;
-    iconContainer.firstChild.style.verticalAlign = 'middle'; // Add this line
+    iconContainer.firstChild.style.verticalAlign = 'middle';
     editorButton.appendChild(iconContainer);
-    editorButton.appendChild(buttonTitle); // Append the button title after the icon
+    editorButton.appendChild(buttonTitle);
   });
 
   getEditorLink((vscodeUrl) => {
