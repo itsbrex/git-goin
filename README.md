@@ -14,7 +14,6 @@
 Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code.visualstudio.com/">VS Code</a>, <a href="https://code.visualstudio.com/insiders/">VS Code - Insiders</a>, <a href="https://vscodium.com/">VSCodium</a> and <a href="https://github.com/VSCodium/vscodium-insiders">VSCodium - Insiders</a>.
 </p>
 
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/editors.svg" alt="cursor-light">
 
@@ -34,11 +33,16 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 
 ## Features
 
-- One-click clone and open repos from GitHub, GitLab, Bitbucket, and Azure Dev in Cursor, VS Code, VS Code - Insiders, VSCodium, or VSCodium - Insiders
+- **One-click clone and open repos:**
+  - Supports GitHub, GitLab, Bitbucket, and Azure Dev
+- **Editors:**
+  - Compatible with Cursor, VS Code, VS Code - Insiders, VSCodium, or VSCodium - Insiders
 
 ## Demo
 
-![git-goin-demo](git-goin-demo.gif)
+<p align="center">
+  <img src="gitgoin-demo.gif" alt="git-goin-demo" style="border-radius: 15px;">
+</p>
 
 ## Todo
 
