@@ -16,9 +16,11 @@ Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/itsbrex/git-goin-clone-repo-extension/main/icons/editors.svg" alt="editor-icons">
-
 </p>
 
+<p align="center">
+  <img src="./open-in-buttons.png" alt="Hover text" title="Hover text">
+</p>
 <p align="center">
   <a href="https://linkedin.com/in/itsbrex" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="margin-bottom: 5px; border-radius: 6px">
