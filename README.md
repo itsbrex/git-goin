@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/license/itsbrex/git-goin-clone-repo-extension?style=for-the-badge" alt="GitHub license">
 </p>
 
-![git-goin-clone-repo-extension](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20%2B%20Open%20Any%20Repo%20in%20Desktop%20Editor%20%E2%9C%A8&name=1&owner=1&pattern=Solid&theme=Auto)
+![git-goin-clone-repo-extension](https://socialify.git.ci/itsbrex/git-goin-clone-repo-extension/image?description=1&descriptionEditable=Clone%20%2B%20Open%20Any%20Repo%20in%20Desktop%20Editor%20%E2%9C%A8&name=1&owner=1&pattern=Solid&theme=Dark)
 
 <p align="center">
 Currently supports <a href="https://cursor.sh">Cursor</a>, <a href="https://code.visualstudio.com/">VS Code</a>, <a href="https://code.visualstudio.com/insiders/">VS Code - Insiders</a>, <a href="https://vscodium.com/">VSCodium</a> and <a href="https://github.com/VSCodium/vscodium-insiders">VSCodium - Insiders</a>.
