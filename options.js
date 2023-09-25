@@ -28,10 +28,10 @@ function restore_options() {
   chrome.storage.sync.get(
     {
       protocol: 'HTTPS',
-      application: 'VS Code',
+      application: 'Cursor',
     },
     function (items) {
-      console.log('Restored options:', items); // Add this line
+      console.log('Restored options:', items);
       document.getElementById('protocol').value = items.protocol;
       document.getElementById('application').value = items.application;
     },
